@@ -1,0 +1,147 @@
+@media screen and (max-width:1199px){
+    .contact img{
+        width: 50px;
+    }
+}
+@media screen and (max-width:991px){
+    /*.logo-line{
+        padding-top: 12px;
+        
+    }*/
+    .menu{
+          padding: 45px 0 47px 0;
+      }
+    .menu li{
+        padding:0 10px 0 6px;
+    }
+    .menu li a span{
+        font-size: 9px;
+    }
+    .menu li a {
+        font-size:13px;
+    }
+
+             /*--info*/
+    h1{
+        font-size: 23px;
+        padding: 10px 0 20px 0;
+    }
+
+    p{
+        font-size:12px;
+    }
+    .info{
+        margin-bottom: 20px;
+    }
+
+    .contact img{
+        width: 38px;
+    }
+    .blog{
+        padding-bottom: 13px;
+    }
+    .blog-button{
+        margin-top: 18px;
+    }
+}
+@media screen and (max-width:767px){
+    .logo-line{
+        padding:0;
+        
+    }
+    .menu li span{
+        display: none;
+    }
+    .menu li a {
+        font-size:12px;
+    }
+    .menu li{
+        border:none;
+        padding:0 5px 0 5px;
+    }
+    .menu{
+        padding: 25px 0 16px 0;
+    }
+    .img-wrapper{
+        padding: 18px 0 18px 0;
+    }
+
+                  /*--info*/
+             
+    h2{
+        font-size: 18px;
+        padding-top: 5px;
+    }   
+    h1{
+        font-size: 17px;
+        padding: 8px 0 18px 0;
+    }
+    .info{
+        margin-bottom: 10px;
+    }
+    .info a{
+        margin-bottom: 10px;
+    }
+    .info img{
+        width: 100%;
+    }
+
+         /*----contact---*/
+    h3{
+        font-size: 25px;
+        padding: 6px;
+    }
+   .contact img{
+      margin-right: 10px;
+   }
+}
+@media screen and (max-width:524px){
+    .menu{
+        display: none;
+        float:none;
+        text-align: right;
+        padding: 9px 0 16px 9px;
+    }
+    .menu li{
+        display: block;
+        float:none;
+        padding: 5px 0 5px 0;
+    }
+    .menu li span{
+        display: none;
+    }
+    .img-wrapper img{
+        text-align: center;
+    }
+    .hamburger{
+        display: block;
+        float: right;
+        padding-top: 10px;
+    }
+   
+    /*.img-wrapper{
+        text-align: center;
+    }
+    .img-wrapper img{
+        width: 250px;
+    }
+    .menu{
+        display: none;
+        float:none;
+        text-align: center;
+        padding: 9px 0 16px 9px;
+    }
+    .menu li{
+        display: block;
+        float:none;
+    }
+    .hamburger{
+        display: block;
+        margin: 0 auto;
+    }*/
+}
+@media screen and (max-width:320px){
+    .text{
+        padding-top: 15px;
+    }
+}

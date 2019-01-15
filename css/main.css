@@ -1,0 +1,297 @@
+@font-face{
+    font-family: 'Georgia Bolt' ;
+    src: url(../fonts/GeorgiaBolt/Georgia-Bold.eot),
+     url(../fonts/GeorgiaBolt/Georgia-Bold.ttf),
+     url(../fonts/GeorgiaBolt/Georgia-Bold.woff);
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face{
+    font-family: 'Georgia Regular' ;
+    src: url(../fonts/GeorgiaRegular/Georgia.eot),
+     url(../fonts/GeorgiaRegular/Georgia.ttf),
+     url(../fonts/GeorgiaRegular/Georgia.woff);
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face{
+    font-family: 'Helvetica' ;
+    src: url(../fonts/Helvetica/HelveticaNeueCyr-Thin.eot),
+     url(../fonts/Helvetica/HelveticaNeueCyr-Thin.ttf),
+     url(../fonts/Helvetica/HelveticaNeueCyr-Thin.woff);
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face{
+    font-family: 'Tahoma' ;
+    src: url(../fonts/TahomaRegular/Tahoma.eot),
+     url(../fonts/TahomaRegular/Tahoma.ttf),
+     url(../fonts/TahomaRegular/Tahoma.woff);
+     font-weight: normal;
+     font-style: normal;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-line{
+   /* height: 138px;*/
+    /*padding:40px 0 27px 0;*/
+    box-shadow: inset 0px 2px 9px 0px #e1e1e1; 
+    /*line-height: 70px;*/
+}
+.img-wrapper{
+    padding: 36px 0 27px 0;
+}
+.img-wrapper .logo{
+    max-width: 100%;
+    /*text-align: center;*/
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    /*padding: 58px 0 47px 0;*/
+}
+
+.menu li{
+   float: left;
+}
+.menu li {
+    border-left:1px dashed #d6d6d6;
+    padding: 0 11px;
+}
+.menu li a {
+    display: block;
+    font-family:'Georgia Bolt';
+    font-size: 14px;
+    color:#666666;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.menu li span{
+    display: block;
+    font-family: 'Tahoma' ;
+    font-size: 11px;
+    color: #b7b7b7;
+    text-transform: none;
+}
+
+.hamburger{
+    padding-bottom: 0;
+    display: none;
+}
+
+.line-slaid{
+    padding-top: 22px;
+    background-color: #000000;
+}
+.owl-carousel{
+    margin-bottom: -44px;
+    position: relative;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.my-owl-item{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.my-owl-item img{
+    width: 100%;
+}
+.owl-carousel button.owl-dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+    border:4px solid #1b1b1b;
+    margin: 0 3px;
+}
+.owl-carousel button.owl-dot.active{
+    background-color: #84d9f3;
+}
+    
+       /*info*/
+       
+h1{
+    font-family: 'Georgia Bolt' ;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px 0 25px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+h2{
+    font-family: 'Georgia Regular' ;
+    font-size:21px; 
+    padding-top: 17px ;
+    margin: 0;
+    color:#11719e;
+}
+p{
+    font-family: 'Helvetica' ;
+    font-size: 13px;
+    color:#3e3e3e; 
+}
+
+.info img{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    border:6px solid #f3f3f3; 
+}
+.text{
+    padding-top: 20px; 
+    
+}
+.info a {
+    display: block;
+    background: url(../img/fon1.jpg) no-repeat;
+    font-family: 'Helvetica' ;
+    margin-bottom: 25px;
+    padding: 12px 0 12px 12px;
+    text-decoration: none;
+    width: 163px;
+    font-size: 12px;
+    color:#016999;
+    border-radius: 5px;
+}
+.info{
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.info a{
+    margin-top: 20px;
+}
+     
+    /*------contact------*/
+    .contact p{
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        color:#858585;
+    }
+    h3{
+        border-bottom: 1px dashed #d3d3d3;
+        padding: 10px;
+        font-family: 'Georgia Regular' ;
+        font-size: 18px;
+        color: #444444;
+       margin-bottom: 14px;
+    }
+  
+  h4{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      border-bottom: 1px dashed #d3d3d3;
+      padding: 10px;
+  }
+  input{
+      width: 100%;
+      margin-bottom: 18px;
+      color:#d4d4d4;
+      padding: 6px;
+      border-radius: 5px;
+      border:1px solid #cfcfcf;
+  }
+  .svg-inline--fa{
+      margin-left: 30px;
+  }
+  .button{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    background: url(../img/fon2.jpg) no-repeat;
+    font-family: 'Georgia Regular' ;
+    margin-bottom: 25px;
+    padding: 6px 0 12px 12px;
+    width: 163px;
+    font-size: 13px;
+    color:#fff;
+    border-radius: 5px;
+  }
+  .button:hover{
+      text-decoration: none;
+      color:#fff;
+  }
+  textarea{
+      width: 100%;
+      height: 140px;
+      padding: 13px 15px;
+      border-radius: 5px;
+      border:1px solid #cfcfcf;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 10px;
+      color:#d4d4d4;
+      line-height: 14px;
+      margin-bottom: 15px;
+  }
+  input[type=submit]{
+    background: url(../img/fon2.jpg) no-repeat;
+    font-family: 'Georgia Regular' ;
+    margin-bottom: 25px;
+    padding: 6px 0 7px 12px;
+    width: 163px;
+    font-size: 13px;
+    color:#fff;
+    border-radius: 5px;
+  }
+  .contact p>img{
+      float:left;
+      margin-right: 9px;
+  }
+   .blog{
+    border-bottom: 1px dashed #d3d3d3;
+    margin-bottom: 10px;
+    padding-bottom: 16px;
+  }
+  .blog p{
+      margin: 0;
+  }
+  .blog-button{
+      margin-top: 25px;
+  }
+ 
+
+.footer{
+    border-top: 11px solid #4c4c4c;
+    height: 170px;
+    background-color: #333333;
+    
+}
+.footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+    color:#999999;
+    padding-top: 17px;
+    margin-bottom: 0px;
+}
+.menu1{
+    list-style: none;
+}
+.menu1 li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+    color:#999999;
+    padding: 0 5px;
+    border-right: 1px solid #555555;
+}
+
+.menu1 li{
+    display: inline-block;
+    
+}
+.menu1 li:first-child a{
+ padding-left: 0;
+}
+.menu1 li:last-child a{
+    border-right:none;
+}
+.copy{
+    text-align: center;
+}
